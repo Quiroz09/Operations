@@ -10,6 +10,5 @@ public class Main {
         dataPerson.country = "Colombia";
         dataPerson.gender = "man";
         System.out.println("los datos de la persona son: "+dataPerson.dataPerson());
-
     }
 }
