@@ -5,6 +5,6 @@ public class Main {
         Multiplication multiplication = new Multiplication();
         multiplication.Number1 = 3;
         multiplication.Number2 = 3;
-        System.out.println("La Multiplicacion es "+multiplication.multiplication());
+        System.out.println("the multiplication is "+multiplication.multiplication());
     }
 }

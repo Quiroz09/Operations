@@ -5,6 +5,6 @@ public class Main {
         Subtraction subtraction = new Subtraction();
         subtraction.Number1 = 20;
         subtraction.Number2 = 3;
-        System.out.println("La resta es "+subtraction.subtraction());
+        System.out.println("the remainder is "+subtraction.subtraction());
     }
 }

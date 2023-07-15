@@ -8,7 +8,7 @@ public class mainSwitch {
         Switch1 a = new Switch1();
         Scanner lector = new Scanner(System.in);
 
-        System.out.println("Ingrese una opcion: ");
+        System.out.println("Please enter an option: ");
         switch1.option = lector.nextInt();
 
         System.out.println(a.showOption());

@@ -6,7 +6,7 @@ public class Main {
         trafficLight.color = "verde";
         trafficLight.state = true;
         if(trafficLight.showStatus()){
-            System.out.println("mensaje "+ trafficLight.showTraffic());
+            System.out.println("Message "+ trafficLight.showTraffic());
         }
     }
 }

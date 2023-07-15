@@ -8,14 +8,14 @@ public class TrafficLight {
         return state;
     }
     public String showTraffic(){
-        if(color.equals("verde")){
-            return "Avance..";
-        }else if(color.equals("rojo")){
-            return "detenga su vehiculo..";
-        }else if(color.equals("amarillo")){
-            return "encienda motores..";
+        if(color.equals("green")){
+            return "Advance";
+        }else if(color.equals("red")){
+            return "stop your vehicle..";
+        }else if(color.equals("yellow")){
+            return "start engines..";
         }else{
-            return "semaforo dañado";
+            return "damaged traffic light";
         }
     }
 }

@@ -5,6 +5,6 @@ public class Main {
         Division division = new Division();
         division.Number1 = 15;
         division.Number2 = 3;
-        System.out.println("La division es "+division.division());
+        System.out.println("The division is "+division.division());
     }
 }

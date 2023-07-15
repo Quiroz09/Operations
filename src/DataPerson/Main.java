@@ -9,6 +9,6 @@ public class Main {
         dataPerson.age = "18 age";
         dataPerson.country = "Colombia";
         dataPerson.gender = "man";
-        System.out.println("los datos de la persona son: "+dataPerson.dataPerson());
+        System.out.println("the data of the person are: "+dataPerson.dataPerson());
     }
 }
